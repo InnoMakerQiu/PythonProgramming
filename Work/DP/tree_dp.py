@@ -4,7 +4,6 @@ import sys
 # 在算法执行过程中，记得需要设置递归深度
 sys.setrecursionlimit(50020)
 
-
 def calculate_tree_score(n, values, edges):
     from collections import defaultdict
 
@@ -40,3 +39,4 @@ edges = [tuple(map(int, input().split())) for _ in range(n - 1)]
 
 # 计算树的最大评分
 print(calculate_tree_score(n, values, edges))
+
